@@ -123,7 +123,7 @@
                         "displayName": "Stop Time",
                         "required": true,
                         "format": "timeFormat",
-                        "tooltip": "Select start time to Power On Virtual Machine"
+                        "description": "Select start time to Power On Virtual Machine"
                     }
                 },
                 "TimeZone": {
@@ -265,7 +265,7 @@
                     "metadata": {
                         "displayName": "Timezone",
                         "placeholder": "Start VM at this specific time zone",
-                        "tooltip": "Select time zone for task schedule",
+                        "description": "Select time zone for task schedule",
                         "required": true
                     }
                 },
@@ -274,7 +274,7 @@
                     "type": "Int",
                     "metadata":  {
                         "displayName": "Interval",
-                        "tooltip": "Time interval for recurrence",
+                        "description": "Time interval for recurrence",
                         "required": true,
                         "format": "number"
                     }
@@ -293,7 +293,7 @@
                     "metadata": {
                         "displayName": "Frequency",
                         "placeholder": "How often does schedule run",
-                        "tooltip": "How often should schedule run. i.e. Weekly",
+                        "description": "How often should schedule run. i.e. Weekly",
                         "required": true
                     }
                 },
@@ -301,7 +301,7 @@
                     "type": "bool",
                     "metadata":  {
                         "displayName": "Notify Me",
-                        "tooltip": "Notify me if task is not completed",
+                        "description": "Notify me if task is not completed",
                         "format": "notifier",
                         "required": false
                     }
@@ -311,7 +311,7 @@
                     "type": "String",
                     "metadata": {
                         "displayName": "Enter email",
-                        "tooltip": "Notification to be sent to email",
+                        "description": "Notification to be sent to email",
                         "required": false
                     }
                 }

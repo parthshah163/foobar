@@ -39,7 +39,7 @@
                         "displayName": "Email to",
                         "isLinkedResource": false,
                         "required": true,
-                        "tooltip": "Enter the email that you want notifications to be sent to"
+                        "description": "Enter the email that you want notifications to be sent to"
                     }
 
                 },

@@ -103,7 +103,7 @@
                         "displayName": "Expiration age",
                         "isLinkedResource": false,
                         "required": true,
-                        "tooltip": "Blobs older than this age will be deleted"
+                        "description": "Blobs older than this age will be deleted"
                     }
                 },
                 "Time": {
