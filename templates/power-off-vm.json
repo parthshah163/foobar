@@ -65,7 +65,7 @@
                         }
                     },
                     "runAfter": {
-                        "Start_virtual_machine": [
+                        "Power_off_virtual_machine": [
                             "Skipped",
                             "Failed"
                         ]
