@@ -1,7 +1,7 @@
 {
     "id": "send-monthly-cost",
-    "description": "ClientResources.Automation.Templates.MonthlyCost.description",
-    "title": "ClientResources.Automation.Templates.MonthlyCost.title",
+    "description": "Sends the cost of the resource every month.",
+    "title": "Send monthly cost for resource",
     "iconUri": "https://connectoricons-prod.azureedge.net/arm/icon_1.0.1343.1989.png",
     "data": {
         "definition": {
